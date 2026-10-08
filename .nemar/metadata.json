@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BigP3BCI Study H — 9x8 checkerboard with gaze conditions (16 healthy subjects)",
-  "description": "This dataset contains EEG recordings from 16 healthy participants performing a P300-based brain-computer interface speller task. It uses a 9x8 checkerboard character grid with gaze conditions (Study H of the bigP3BCI collection). Data were recorded with 16 channels at 256 Hz and are annotated with HED tags for target and non-target events. It is a BIDS-formatted derivative of the PhysioNet bigP3BCI dataset, prepared with MOABB.",
-  "methods_description": "EEG was recorded with a g.USBamp (g.tec) amplifier using 16 channels in a standard 10-20 montage at a 256 Hz sampling rate (60 Hz line frequency). Participants completed one session each of a visual P300 speller paradigm with target and non-target flashes, with online feedback in a laboratory setting.",
+  "description": "This dataset contains 16-channel EEG recordings from 16 healthy participants performing a P300-based brain-computer interface speller task. It uses a 9x8 checkerboard character grid with gaze conditions (Study H of the BigP3BCI collection). Data were recorded at 256 Hz with a g.USBamp amplifier and annotated with HED tags for target and non-target stimuli. This is a BIDS-formatted derivative of the PhysioNet BigP3BCI release, prepared via MOABB.",
+  "methods_description": "EEG was recorded from 16 channels (standard 10-20 montage) at 256 Hz using a g.USBamp (g.tec) in a laboratory setting. Participants performed a visual P300 speller task with online feedback, with target and non-target flashes as events and a calibration-then-test within-subject evaluation.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -87,5 +87,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "776f157e6e655bcade02313f19e2ddc6b5f1e3890e913bd20ee2e49083b1cc04"
+  "source_hash": "74997e510743c243e89418c0defe281c0198a70aaedb2374cc63edf0d3086452"
 }
